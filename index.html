@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <main>
@@ -14,7 +15,7 @@
                 <div class="post-header">
                     <div class="profile">
                         <div class="profile-image">
-                            <img src="" alt="">
+                            <img src="./images/man.jpeg" alt="man">
                         </div>
                         <div class="profile-identity">
                             <p><a href="#" class="name">Garry Newmann</a> posted on your timeline</p>
@@ -22,54 +23,54 @@
                         </div>
                     </div>
                     <div class="three icon">
-    
+                        <span class="fas fa-ellipsis-v"></span>
                     </div>
                 </div>
                 <div class="post-content">
                     <p>Remember the place we were talking about the other night? Found it!</p>
                     <div class="img-wrapper">
-                        <img src="" alt="">
+                        <img src="./images/image-1.png" alt="Image 1">
                     </div>
                 </div>
                 <div class="post-footer">
                     <div class="like">
-                        <p><span class="fa fa-love"></span> Like (5)</p>
+                        <a href="#"><span class="fas fa-heart"></span> Like (5)</a>
                     </div>
                     <div class="share">
-                        <p><span class="fa "></span> Share (21)</p>
+                        <a href="#"><span class="fas fa-share-alt"></span> Share (21)</a>
                     </div>
                 </div>
                 
             </div>
             <div class="comment-card">
                 <div class="comment-count">
-                    <p>1 comment <span class="fa fa-chevron-bottom"></span></p>
+                    <a href="#">1 comments <span class="fas fa-chevron-down"></span></a>
                 </div>
                 <div class="comments">
                     <div class="comment">
                         <div class="profile-image">
-                            <img src="" alt="">
+                            <img src="./images/woman.jpeg" alt="">
                         </div>
                         <div class="comment-content">
                             <div class="profile-identity">
-                                <p>Alice Freeman <span class="comment-date">June 10, 2018</span></p>
+                                <a href="#">Alice Freeman <span class="comment-date">June 10, 2018</span></a>
                             </div>
                             <div class="content">
                                 That's wonderful place. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias asperiores provident omnis debitis facere necessitatibus maiores repellendus blanditiis. Consequuntur veniam sed quos nihil, quam impedit blanditiis animi consequatur autem inventore?
                             </div>
                             <div class="content-footer">
-                                <p>Reply</p>
-                                <span class="fa fa-flag"></span>
+                                <a href="#" class="reply">Reply</a>
+                                <a href="#"><span class="fas fa-flag"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="comment add-comment">
                         <div class="profile-image">
-                            <img src="" alt="">
+                            <img src="./images/default.png" alt="default">
                         </div>
                         <div class="comment-form">
                             <form action="">
-                                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Add a comment..."></textarea>
+                                <textarea name="comment" id="comment" cols="30" rows="4" placeholder="Add a comment..."></textarea>
                                 <input type="submit" value="Post Comment">
                             </form>
                         </div>
@@ -78,5 +79,6 @@
             </div>
         </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>

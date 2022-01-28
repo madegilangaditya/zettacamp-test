@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #F0F2F5;
+    font-family: 'Roboto', sans-serif;;
+    color: #5b5b5b;
+    line-height: 1.33;
+}
+
+a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    padding: 100px 0;
+    
+}
+
+/* Post  styling*/
+.post-card{
+    margin: auto;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 44px #00000026;
+}
+
+.post-column,
+.comment-card{
+    padding: 20px;
+}
+
+.post-header,
+.profile,
+.post-footer,
+.comment,
+.comment .content-footer{
+    display: flex;
+}
+
+.profile,
+.comment{
+    gap: 10px;
+}
+
+.profile-image{
+    max-width: 38px;
+    width: 100%;
+}
+
+.profile-image img{
+    border-radius: 50%;
+}
+
+.post-header{
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-identity a{
+    color: #1d9bf0;
+}
+
+.post-time,
+.comment-date{
+    color: #b7b7b7;
+}
+
+.post-content p,
+.post-content .img-wrapper{
+    margin-bottom: 20px;
+}
+
+/* Post Footer */
+.post-footer{
+    gap: 20px;
+}
+
+.post-footer span{
+    margin-right: 8px;
+}
+
+/* Comment Styling */
+.comment-card{
+    background-color: #f6f6f6;
+}
+
+.comment-count{
+    margin-bottom: 20px;
+}
+
+.comment{
+    margin-bottom: 20px;
+}
+
+.comment-content .content{
+    margin-bottom: 15px;
+}
+
+.comment-form,
+.comment-form textarea{
+    width: 100%;
+}
+
+.comment-form textarea{
+    padding: 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 6px;
+}
+
+.comment-content .profile-identity a{
+    color: #3b3a3a;
+}
+
+.comment .content-footer{
+    gap: 20px;
+}
+
+.comment .content-footer .reply{
+    color: #1d9bf0;
+}
+
+textarea,
+input{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type='submit']{
+    padding: 10px 20px;
+    background-color: #1d9bf0;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    background-color: #1b7dbf;
+}
+
+a:hover{
+    color: #1b7dbf;
+}
